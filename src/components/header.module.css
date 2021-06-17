@@ -1,0 +1,42 @@
+.header {
+    background-color: white;
+}
+.header h3 {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left:100px;
+    max-width: 60%;
+    background-size: contain;
+}
+.header div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        padding: 0 1% !important;
+    }
+    .header h3 {
+        padding-bottom:5px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .header h3 {
+        padding-top:0 !important;
+        padding-left:75px;
+        background-size: initial;
+        background-position: 0 30%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .header h3 {
+        background-size: contain;
+        background-position: 0 0;
+    }
+}

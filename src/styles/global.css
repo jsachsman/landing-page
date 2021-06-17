@@ -1,0 +1,58 @@
+html, body {
+    background-color: #f0f0f0;
+    font-family:Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    padding:0px;
+    font-size:1em;
+  }
+h1, h2, h3, h4 {
+    font-weight: 100;
+    margin:0px;
+}
+h1 {
+    font-size:4em
+}
+h2 {
+    font-size:3em
+}
+h3 {
+    font-size:2em
+}
+h4 {
+    font-size:1.4em;
+}
+a {
+    text-decoration: none;
+}
+p {
+    line-height:1.8em;
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size:2em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 330px) {
+    html, body {
+        font-size: 0.9em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size:1.8em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }    
+}

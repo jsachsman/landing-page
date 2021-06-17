@@ -1,0 +1,47 @@
+.footerTop {
+    color: #1B6494;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.footerTop div:first-child {
+    color: black;
+    font-weight: bold;
+    flex-basis: 190px;
+    line-height: 1.5em;
+}
+.footerTop div:last-child {
+    flex-basis: 40%;
+    height: 40px;
+    border-left:black solid 2px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.footerTop a {
+    color: #1B6494;
+    margin-right:10%;
+}
+.footerTop a:hover {
+    color: black;
+}
+.footerBottom {
+    background-color: black; 
+    color: white;
+    text-align: center;
+    padding:10px 0px;
+}
+.footerBottom a {
+    color: white;
+    padding:0px 8px;
+}
+.footerBottom a:hover {
+    color: #1B6494;
+}
+
+@media screen and (max-width: 770px) {
+    .footerTop {
+        padding-left: 5% !important;
+    }
+}

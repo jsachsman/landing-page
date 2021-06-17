@@ -1,0 +1,32 @@
+.callOut {
+    background-color: white;
+    color: #1B6494; 
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.callOut p {
+    font-size: 1.1em;
+    line-height: 1.5em; 
+    margin: 0;
+    flex-basis: 53%;
+}
+.callOut h2 {
+    background-color: #1B6494;
+     color: white; 
+     flex-basis: 30%;
+}
+
+@media screen and (max-width: 770px) {
+    .callOut {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .callOut h2 {
+        padding-left: 5% !important;
+    }
+    .callOut p {
+        padding-left: 5%;
+    }
+}

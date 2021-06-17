@@ -1,0 +1,14 @@
+.containerWrapper {
+    margin:20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
+    .containerWrapper {
+      flex-direction: column;
+      margin:0px;
+      padding: 0px !important;
+    }
+  }

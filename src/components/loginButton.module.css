@@ -1,0 +1,17 @@
+.loginButton {
+    background-color: #1B6494;
+    color: white;
+    padding:10px 15px;
+    font-size: 1.1em;
+    border-radius:8px;
+}
+.loginButton:hover {
+    color: black
+}
+
+@media screen and (max-width: 770px) {
+    .loginButton {
+        margin-top: 0px !important;
+        padding: 5px 10px;
+    }
+}
