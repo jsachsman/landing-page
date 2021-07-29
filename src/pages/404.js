@@ -15,7 +15,7 @@ export default function dev_404() {
     <Helmet>
       <html lang="en" amp />
       <meta charSet="utf-8" />
-      <title>CISA Training Environment: Error Page</title>
+      <title>Cybersecurity Virtual Learning Environment: Error Page</title>
     </Helmet>
   <Banner bannerText="Page Not Found" bannerImg={bannerImg} padding={leftPadding}>
   <Link href="\">Click here</Link> to return to the landing page.

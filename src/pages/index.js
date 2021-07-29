@@ -18,7 +18,7 @@ export default function Home() {
     <Helmet>
       <html lang="en" amp />
       <meta charSet="utf-8" />
-      <title>CISA Training Environment: Home Page</title>
+      <title>Cybersecurity Virtual Learning Environment: Home Page</title>
     </Helmet>
     <Banner bannerText="Cybersecurity Training" bannerImg={bannerImg} padding={leftPadding}>
     <strong>CISA</strong> is the nation's risk advisor, working with partners to defend against today's threats and collaborating to build more secure and resilient infrastructure for the future.
